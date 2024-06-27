@@ -7,7 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 
 // 스프링 부트가 제공하는 오류페이지를 사용하기 위해 주석 처리
-// @Component
+//@Component
 public class WebServerCustomizer implements WebServerFactoryCustomizer<ConfigurableWebServerFactory> {
   @Override
   public void customize(ConfigurableWebServerFactory factory) {
